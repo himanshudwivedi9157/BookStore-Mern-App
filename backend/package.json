@@ -4,8 +4,9 @@
   "description": "MERN project",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-     "start": "node index.js"
+   "scripts": {
+    "start": "node index.js",
+    "build": "npm install && npm run build"
   },
   "author": "himanshu dwivedi",
   "license": "ISC",
